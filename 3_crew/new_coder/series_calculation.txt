@@ -1,0 +1,17 @@
+Code:
+import math
+
+def calculate_series(num_terms):
+    total = 0.0
+    for i in range(num_terms):
+        term = (-1)**i / (2*i + 1)
+        total += term
+    return total * 4
+
+num_terms = 10000
+result = calculate_series(num_terms)
+
+print(f"{result=}")
+
+Output:
+Result: 3.1414926535900345

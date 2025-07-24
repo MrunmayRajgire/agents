@@ -1,0 +1,14 @@
+```python
+sum = 0
+for i in range(10000):
+    term = 1 / (2 * i + 1)
+    if i % 2 == 0:
+        sum += term
+    else:
+        sum -= term
+
+result = sum * 4
+print(result)
+```
+
+Output: 3.1414926535900345

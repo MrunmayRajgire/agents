@@ -1,0 +1,43 @@
+```text
+Code:
+import math
+
+def calculate_series(num_terms):
+    total = 0.0
+    for i in range(num_terms):
+        term = (-1)**i / (2*i + 1)
+        total += term
+    return total * 4
+
+num_terms = 10000
+result = calculate_series(num_terms)
+
+print(f"{result=}")
+
+# Create a text file with the code and the output
+code = '''import math
+
+def calculate_series(num_terms):
+    total = 0.0
+    for i in range(num_terms):
+        term = (-1)**i / (2*i + 1)
+        total += term
+    return total * 4
+
+num_terms = 10000
+result = calculate_series(num_terms)
+
+print(f"{result=}")
+'''
+
+output = f"Result: {result}"
+
+with open("series_calculation.txt", "w") as f:
+    f.write("Code:\n")
+    f.write(code)
+    f.write("\nOutput:\n")
+    f.write(output)
+
+Output:
+Result: 3.1414926535900345
+```
