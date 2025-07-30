@@ -1,43 +1,23 @@
 ```text
-Code:
-import math
-
+```python
 def calculate_series(num_terms):
-    total = 0.0
-    for i in range(num_terms):
-        term = (-1)**i / (2*i + 1)
-        total += term
-    return total * 4
+  """Calculates the sum of the series 1 - 1/3 + 1/5 - 1/7 + ... for a given number of terms.
+  Then multiplies the result by 4."""
+  total = 0
+  for i in range(num_terms):
+    term = 1 / (2 * i + 1)
+    if i % 2 == 0:
+      total += term
+    else:
+      total -= term
+  return total * 4
 
 num_terms = 10000
 result = calculate_series(num_terms)
+print(result)
+```
 
-print(f"{result=}")
-
-# Create a text file with the code and the output
-code = '''import math
-
-def calculate_series(num_terms):
-    total = 0.0
-    for i in range(num_terms):
-        term = (-1)**i / (2*i + 1)
-        total += term
-    return total * 4
-
-num_terms = 10000
-result = calculate_series(num_terms)
-
-print(f"{result=}")
-'''
-
-output = f"Result: {result}"
-
-with open("series_calculation.txt", "w") as f:
-    f.write("Code:\n")
-    f.write(code)
-    f.write("\nOutput:\n")
-    f.write(output)
-
-Output:
-Result: 3.1414926535900345
+```
+3.1414926535900345
+```
 ```
