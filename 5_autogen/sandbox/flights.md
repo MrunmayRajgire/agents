@@ -1,28 +1,21 @@
-Flight Deals from JFK to LHR - June 2025:
+# Flight Deals: JFK to LHR - August 2025
 
-1. Airline: Virgin Atlantic
-   - Price: $497
-   - Non-stop
-   - In-flight amenities: meals, drinks, entertainment, WiFi
+Here are the one-way, non-stop flight deals found for August 2025 from JFK to LHR.
 
-2. Airline: JetBlue
-   - Price: $314
-   - Non-stop
-   - Booking available now
+## Deal 1: JetBlue
 
-3. Airline: Delta
-   - Price: $239
-   - Non-stop
-   - Additional services: earns airline miles
+*   **Price:** $198
+*   **Airline:** JetBlue
+*   **Departure Date:** Sunday, August 17, 2025
+*   **Flight Type:** Direct, non-stop
 
-4. Airline: SWISS
-   - Price: $402
-   - Non-stop
-   - Comfortable seating and great service
+## Deal 2: General August Fares
 
-5. Airline: United Airlines
-   - Price: $450
-   - Non-stop
-   - Great onboard experience
+*   **Price:** Starting from $468.91
+*   **Details:** Several airlines offer flights in this price range throughout August 2025.
 
-Best Deal: JetBlue at $314 for a non-stop flight from JFK to LHR. 
+## Deal 3: Norse Atlantic UK (Potential Option)
+
+*   **Price:** $129
+*   **Airline:** Norse Atlantic UK
+*   **Details:** This price is for a flight on Wednesday, October 8th, not in August. However, it's a very low price and may be worth considering if travel dates are flexible.

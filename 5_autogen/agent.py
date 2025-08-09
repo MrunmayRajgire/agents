@@ -26,7 +26,14 @@ class Agent(RoutedAgent):
 
     def __init__(self, name) -> None:
         super().__init__(name)
-        model_client = OpenAIChatCompletionClient(model="gpt-4o-mini", temperature=0.7)
+        #model_client = OpenAIChatCompletionClient(model="gpt-4o-mini", temperature=0.7)
+        model_client = OpenAIChatCompletionClient(model="gemini-2.5-pro", model_info={
+            "vision": True,
+            "function_calling": True,
+            "json_output": True,
+            "structured_output": True,
+            "family":"gemini-2.5-pro"
+        })
         self._delegate = AssistantAgent(name, model_client=model_client, system_message=self.system_message)
 
     @message_handler
